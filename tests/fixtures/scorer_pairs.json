@@ -1,0 +1,804 @@
+[
+  {
+    "id": "P01",
+    "same_target": true,
+    "note": "same login button, changed id",
+    "original": {
+      "tag_name": "button",
+      "text": "Sign in",
+      "classes": [
+        "btn",
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit",
+        "id": "login-btn"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Welcome back",
+      "x": 500,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Sign in",
+      "classes": [
+        "btn",
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit",
+        "id": "signin-submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Welcome back",
+      "x": 501,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    }
+  },
+  {
+    "id": "P02",
+    "same_target": true,
+    "note": "email input renamed",
+    "original": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field"
+      ],
+      "attributes": {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email address"
+      },
+      "role": "textbox",
+      "parent_tag": "form",
+      "parent_text": "Sign in",
+      "x": 500,
+      "y": 280,
+      "width": 300,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field"
+      ],
+      "attributes": {
+        "type": "email",
+        "name": "user_email",
+        "placeholder": "Email address"
+      },
+      "role": "textbox",
+      "parent_tag": "form",
+      "parent_text": "Sign in",
+      "x": 500,
+      "y": 281,
+      "width": 300,
+      "height": 40
+    }
+  },
+  {
+    "id": "P03",
+    "same_target": true,
+    "note": "password input name changed",
+    "original": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field",
+        "password"
+      ],
+      "attributes": {
+        "type": "password",
+        "name": "password"
+      },
+      "role": "textbox",
+      "parent_tag": "form",
+      "parent_text": "Login",
+      "x": 500,
+      "y": 340,
+      "width": 300,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field",
+        "password"
+      ],
+      "attributes": {
+        "type": "password",
+        "name": "passcode"
+      },
+      "role": "textbox",
+      "parent_tag": "form",
+      "parent_text": "Login",
+      "x": 500,
+      "y": 340,
+      "width": 300,
+      "height": 40
+    }
+  },
+  {
+    "id": "P04",
+    "same_target": true,
+    "note": "button capitalization changed",
+    "original": {
+      "tag_name": "button",
+      "text": "Continue",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Account login",
+      "x": 500,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "CONTINUE",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Account login",
+      "x": 500,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    }
+  },
+  {
+    "id": "P05",
+    "same_target": true,
+    "note": "test id changed",
+    "original": {
+      "tag_name": "button",
+      "text": "Save changes",
+      "classes": [
+        "btn"
+      ],
+      "attributes": {
+        "data-testid": "save-profile"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Profile settings",
+      "x": 780,
+      "y": 650,
+      "width": 140,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Save changes",
+      "classes": [
+        "btn"
+      ],
+      "attributes": {
+        "data-testid": "profile-save"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Profile settings",
+      "x": 780,
+      "y": 650,
+      "width": 140,
+      "height": 40
+    }
+  },
+  {
+    "id": "P06",
+    "same_target": true,
+    "note": "responsive layout shift",
+    "original": {
+      "tag_name": "button",
+      "text": "Search",
+      "classes": [
+        "search-submit"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Search products",
+      "x": 900,
+      "y": 120,
+      "width": 90,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Search",
+      "classes": [
+        "search-submit"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Search products",
+      "x": 720,
+      "y": 160,
+      "width": 90,
+      "height": 40
+    }
+  },
+  {
+    "id": "P07",
+    "same_target": true,
+    "note": "aria label wording extended",
+    "original": {
+      "tag_name": "button",
+      "text": "",
+      "classes": [
+        "icon-button"
+      ],
+      "attributes": {
+        "aria-label": "Close dialog"
+      },
+      "role": "button",
+      "parent_tag": "div",
+      "parent_text": "Preferences",
+      "x": 800,
+      "y": 100,
+      "width": 32,
+      "height": 32
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "",
+      "classes": [
+        "icon-button"
+      ],
+      "attributes": {
+        "aria-label": "Close preferences dialog"
+      },
+      "role": "button",
+      "parent_tag": "div",
+      "parent_text": "Preferences",
+      "x": 800,
+      "y": 100,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "P08",
+    "same_target": true,
+    "note": "forgot password href changed",
+    "original": {
+      "tag_name": "a",
+      "text": "Forgot password?",
+      "classes": [
+        "help-link"
+      ],
+      "attributes": {
+        "href": "/forgot-password"
+      },
+      "role": "link",
+      "parent_tag": "form",
+      "parent_text": "Sign in",
+      "x": 500,
+      "y": 380,
+      "width": 130,
+      "height": 20
+    },
+    "candidate": {
+      "tag_name": "a",
+      "text": "Forgot password?",
+      "classes": [
+        "help-link"
+      ],
+      "attributes": {
+        "href": "/account/recovery"
+      },
+      "role": "link",
+      "parent_tag": "form",
+      "parent_text": "Sign in",
+      "x": 500,
+      "y": 380,
+      "width": 130,
+      "height": 20
+    }
+  },
+  {
+    "id": "P09",
+    "same_target": true,
+    "note": "button class refactor",
+    "original": {
+      "tag_name": "button",
+      "text": "Create account",
+      "classes": [
+        "btn",
+        "green"
+      ],
+      "attributes": {
+        "type": "submit",
+        "name": "register"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Create account",
+      "x": 600,
+      "y": 500,
+      "width": 160,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Create account",
+      "classes": [
+        "button",
+        "success"
+      ],
+      "attributes": {
+        "type": "submit",
+        "name": "register"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Create account",
+      "x": 600,
+      "y": 500,
+      "width": 160,
+      "height": 40
+    }
+  },
+  {
+    "id": "P10",
+    "same_target": true,
+    "note": "navigation wrapper changed",
+    "original": {
+      "tag_name": "a",
+      "text": "Dashboard",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {
+        "href": "/dashboard"
+      },
+      "role": "link",
+      "parent_tag": "nav",
+      "parent_text": "Main navigation",
+      "x": 100,
+      "y": 30,
+      "width": 100,
+      "height": 24
+    },
+    "candidate": {
+      "tag_name": "a",
+      "text": "Dashboard",
+      "classes": [
+        "navigation-link"
+      ],
+      "attributes": {
+        "href": "/dashboard"
+      },
+      "role": "link",
+      "parent_tag": "header",
+      "parent_text": "Main navigation",
+      "x": 100,
+      "y": 30,
+      "width": 100,
+      "height": 24
+    }
+  },
+  {
+    "id": "P11",
+    "same_target": false,
+    "note": "different button nearby",
+    "original": {
+      "tag_name": "button",
+      "text": "Delete account",
+      "classes": [
+        "danger"
+      ],
+      "attributes": {
+        "type": "button"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Account settings",
+      "x": 800,
+      "y": 600,
+      "width": 140,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Save account",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Account settings",
+      "x": 800,
+      "y": 600,
+      "width": 140,
+      "height": 40
+    }
+  },
+  {
+    "id": "P12",
+    "same_target": false,
+    "note": "login button vs cancel button",
+    "original": {
+      "tag_name": "button",
+      "text": "Sign in",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Login",
+      "x": 500,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Cancel",
+      "classes": [
+        "secondary"
+      ],
+      "attributes": {
+        "type": "button"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Login",
+      "x": 500,
+      "y": 400,
+      "width": 120,
+      "height": 40
+    }
+  },
+  {
+    "id": "P13",
+    "same_target": false,
+    "note": "email input vs search input",
+    "original": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field"
+      ],
+      "attributes": {
+        "type": "email",
+        "name": "email"
+      },
+      "role": "textbox",
+      "parent_tag": "form",
+      "parent_text": "Login",
+      "x": 500,
+      "y": 280,
+      "width": 300,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "input",
+      "text": "",
+      "classes": [
+        "field"
+      ],
+      "attributes": {
+        "type": "search",
+        "name": "query"
+      },
+      "role": "searchbox",
+      "parent_tag": "form",
+      "parent_text": "Product search",
+      "x": 500,
+      "y": 280,
+      "width": 300,
+      "height": 40
+    }
+  },
+  {
+    "id": "P14",
+    "same_target": false,
+    "note": "wrong parent context",
+    "original": {
+      "tag_name": "button",
+      "text": "Submit",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Payment details",
+      "x": 700,
+      "y": 600,
+      "width": 130,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Submit",
+      "classes": [
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Newsletter signup",
+      "x": 700,
+      "y": 600,
+      "width": 130,
+      "height": 40
+    }
+  },
+  {
+    "id": "P15",
+    "same_target": false,
+    "note": "same text but different role and location",
+    "original": {
+      "tag_name": "button",
+      "text": "More options",
+      "classes": [
+        "menu-trigger"
+      ],
+      "attributes": {
+        "aria-haspopup": "menu"
+      },
+      "role": "button",
+      "parent_tag": "div",
+      "parent_text": "User menu",
+      "x": 950,
+      "y": 20,
+      "width": 40,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "a",
+      "text": "More options",
+      "classes": [
+        "help-link"
+      ],
+      "attributes": {
+        "href": "/help"
+      },
+      "role": "link",
+      "parent_tag": "footer",
+      "parent_text": "Help center",
+      "x": 100,
+      "y": 900,
+      "width": 100,
+      "height": 24
+    }
+  },
+  {
+    "id": "P16",
+    "same_target": false,
+    "note": "pay now vs apply coupon",
+    "original": {
+      "tag_name": "button",
+      "text": "Pay now",
+      "classes": [
+        "btn",
+        "primary"
+      ],
+      "attributes": {
+        "type": "submit",
+        "name": "pay"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Checkout",
+      "x": 800,
+      "y": 700,
+      "width": 140,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Apply coupon",
+      "classes": [
+        "btn",
+        "primary"
+      ],
+      "attributes": {
+        "type": "button",
+        "name": "coupon"
+      },
+      "role": "button",
+      "parent_tag": "form",
+      "parent_text": "Checkout discounts",
+      "x": 800,
+      "y": 700,
+      "width": 140,
+      "height": 40
+    }
+  },
+  {
+    "id": "P17",
+    "same_target": false,
+    "note": "different table row action",
+    "original": {
+      "tag_name": "button",
+      "text": "Edit",
+      "classes": [
+        "row-action"
+      ],
+      "attributes": {
+        "data-row": "customer-42"
+      },
+      "role": "button",
+      "parent_tag": "tr",
+      "parent_text": "Customer 42",
+      "x": 900,
+      "y": 200,
+      "width": 60,
+      "height": 30
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Edit",
+      "classes": [
+        "row-action"
+      ],
+      "attributes": {
+        "data-row": "customer-84"
+      },
+      "role": "button",
+      "parent_tag": "tr",
+      "parent_text": "Customer 84",
+      "x": 900,
+      "y": 240,
+      "width": 60,
+      "height": 30
+    }
+  },
+  {
+    "id": "P18",
+    "same_target": false,
+    "note": "same label but wrong destination/context",
+    "original": {
+      "tag_name": "a",
+      "text": "Settings",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {
+        "href": "/settings"
+      },
+      "role": "link",
+      "parent_tag": "nav",
+      "parent_text": "Account navigation",
+      "x": 100,
+      "y": 100,
+      "width": 90,
+      "height": 24
+    },
+    "candidate": {
+      "tag_name": "a",
+      "text": "Settings",
+      "classes": [
+        "nav-item"
+      ],
+      "attributes": {
+        "href": "/admin/settings"
+      },
+      "role": "link",
+      "parent_tag": "nav",
+      "parent_text": "Admin navigation",
+      "x": 100,
+      "y": 100,
+      "width": 90,
+      "height": 24
+    }
+  },
+  {
+    "id": "P19",
+    "same_target": false,
+    "note": "log out vs log in",
+    "original": {
+      "tag_name": "button",
+      "text": "Log out",
+      "classes": [
+        "account-action"
+      ],
+      "attributes": {
+        "type": "button"
+      },
+      "role": "button",
+      "parent_tag": "div",
+      "parent_text": "Account menu",
+      "x": 900,
+      "y": 80,
+      "width": 100,
+      "height": 36
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Log in",
+      "classes": [
+        "account-action"
+      ],
+      "attributes": {
+        "type": "button"
+      },
+      "role": "button",
+      "parent_tag": "div",
+      "parent_text": "Account menu",
+      "x": 900,
+      "y": 80,
+      "width": 100,
+      "height": 36
+    }
+  },
+  {
+    "id": "P20",
+    "same_target": false,
+    "note": "generic remove action in different section",
+    "original": {
+      "tag_name": "button",
+      "text": "Remove",
+      "classes": [
+        "danger"
+      ],
+      "attributes": {
+        "data-action": "remove-member"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Team members",
+      "x": 700,
+      "y": 500,
+      "width": 110,
+      "height": 40
+    },
+    "candidate": {
+      "tag_name": "button",
+      "text": "Remove",
+      "classes": [
+        "danger"
+      ],
+      "attributes": {
+        "data-action": "remove-project"
+      },
+      "role": "button",
+      "parent_tag": "section",
+      "parent_text": "Projects",
+      "x": 700,
+      "y": 500,
+      "width": 110,
+      "height": 40
+    }
+  }
+]

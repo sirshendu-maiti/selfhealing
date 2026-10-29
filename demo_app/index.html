@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign in · SelfHeal</title><link rel="stylesheet" href="static/style.css"></head>
+<body><main class="shell">
+<section class="brand-panel" aria-label="Product introduction"><div class="brand"><span class="brand-mark">✦</span> selfheal<span class="brand-dot">.</span></div><div class="brand-copy"><p class="eyebrow">UI AUTOMATION, RESILIENT BY DESIGN</p><h1>Keep your tests moving.</h1><p>When interfaces change, your automation should adapt with confidence.</p></div><div class="bottom-note"><span class="pulse"></span> Built for reliable regression testing</div></section>
+<section class="form-panel" aria-labelledby="login-title"><div class="form-wrap"><p class="eyebrow mobile-eyebrow">WELCOME BACK</p><h2 id="login-title">Sign in to your workspace</h2><p class="subheading">Use the demo account to explore the Phase 1 prototype.</p>
+<div id="login-feedback" hidden role="status" aria-live="polite"></div>
+<form id="login-form" data-testid="login-form"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="username" placeholder="you@company.com" required data-testid="email-input"><div class="password-row"><label for="password">Password</label><a href="#demo-note" data-testid="forgot-password">Forgot password?</a></div><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required data-testid="password-input"><button type="submit" data-testid="login-submit">Sign in <span aria-hidden="true">→</span></button></form>
+<div class="demo-note" id="demo-note"><strong>Demo credentials</strong><span>demo@example.com</span><span>demo123</span></div><p class="legal">Prototype only · Do not enter real credentials.</p></div></section></main>
+<script>
+// Demo-only front-end simulation. This is not real authentication.
+const form = document.querySelector('#login-form');
+const feedback = document.querySelector('#login-feedback');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const email = form.email.value.trim();
+  const password = form.password.value;
+  feedback.hidden = false;
+  if (email === 'demo@example.com' && password === 'demo123') {
+    feedback.className = 'alert success';
+    feedback.dataset.testid = 'login-success';
+    feedback.textContent = 'Signed in to the demo successfully.';
+  } else {
+    feedback.className = 'alert error';
+    feedback.dataset.testid = 'login-error';
+    feedback.textContent = 'Email or password is incorrect.';
+  }
+});
+</script></body></html>

@@ -1,0 +1,27 @@
+Scorer spike: 20 hand-authored pairs | threshold=0.75
+id   truth  score  predicted  note
+P01  True   0.966  True       same login button, changed id
+P02  True   0.983  True       email input renamed
+P03  True   0.981  True       password input name changed
+P04  True   1.000  True       button capitalization changed
+P05  True   0.938  True       test id changed
+P06  True   0.973  True       responsive layout shift
+P07  True   0.950  True       aria label wording extended
+P08  True   0.895  True       forgot password href changed
+P09  True   0.887  True       button class refactor
+P10  True   0.870  True       navigation wrapper changed
+P11  False  0.669  False      different button nearby
+P12  False  0.521  False      login button vs cancel button
+P13  False  0.784  True       email input vs search input
+P14  False  0.943  True       wrong parent context
+P15  False  0.456  False      same text but different role and location
+P16  False  0.690  False      pay now vs apply coupon
+P17  False  0.974  True       different table row action
+P18  False  0.944  True       same label but wrong destination/context
+P19  False  0.885  True       log out vs log in
+P20  False  0.894  True       generic remove action in different section
+
+TP=10 FP=6 TN=4 FN=0
+accuracy=0.700 precision=0.625 recall=1.000
+mean score=0.860
+NOTE: hand-made smoke benchmark only; threshold and feature handling require calibration on real DOM captures.
